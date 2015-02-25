@@ -197,9 +197,9 @@ Curabitur congue aliquet nulla, ac hendrerit leo dictum in. Cras at tristique qu
 
 
 <div class="section location">
- 
-  <iframe class="googlemap" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Cara%20Cafe%2C%20Pune%2C%20Maharashtra%2C%20India&key=AIzaSyB0JcDXPjexErsIr4BI7aE8yNPjZ4-_5Mc"></iframe>
-  
+ <section id="canvas1" class="map">
+  <iframe id="map_canvas1" class="googlemap" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Cara%20Cafe%2C%20Pune%2C%20Maharashtra%2C%20India&key=AIzaSyB0JcDXPjexErsIr4BI7aE8yNPjZ4-_5Mc"></iframe>
+    </section>
    <div class="slanted-div">
    <div class="slanted-div-inner">
     <h1>LOCATION</h1>
@@ -596,7 +596,19 @@ $(document).ready(
         });
     });
 </script>
+<script>
+    $(document).ready(function () {
 
+        $('#map_canvas1').addClass('scrolloff'); // set the pointer events to none on doc ready
+        $('#canvas1').on('click', function () {
+            $('#map_canvas1').removeClass('scrolloff'); // set the pointer events true on click
+        });
+
+        $("#map_canvas1").mouseleave(function () {
+            $('#map_canvas1').addClass('scrolloff'); // set the pointer events to none when mouse leaves the map area
+        });
+    });
+</script>
 
 
 

@@ -148,6 +148,10 @@ font-size: 164px;
 font-size: 164px;
 }
 
+.scrolloff {
+        pointer-events: none;
+}
+
 .foot {
     color: white;
     height: 100px;
