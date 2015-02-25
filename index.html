@@ -46,6 +46,8 @@
     <![endif]-->
 </head>
 <body>
+    
+    <div class="preloader"><div class="preloader-gif"></div></div>
 
     
     <div id="js__media-check"></div>
@@ -609,7 +611,14 @@ $(document).ready(
         });
     });
 </script>
+<script>
 
+    $(window).load(function(){
+        $('.site__content').css("display","block");
+        $('.preloader').hide();
+    });
+
+</script>
 
 
   </body>

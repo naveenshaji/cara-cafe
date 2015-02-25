@@ -152,6 +152,26 @@ font-size: 164px;
         pointer-events: none;
 }
 
+.site__content{
+    display: none;
+}
+.preloader {
+    background: #FDB42B;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.preloader-gif {
+    margin: auto;
+    width: 466px;
+    height: 500px;
+    background: url(../img/loadingimage.gif) no-repeat;
+    cursor: wait;
+    margin-top: 10%;
+}
+
 .foot {
     color: white;
     height: 100px;
