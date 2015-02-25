@@ -1,0 +1,149 @@
+a {
+    color: inherit !important;
+    transition: all 0.4s ease;
+    overflow: hidden;
+}
+a:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+.quote-left {
+    font-size: 70px;
+    line-height: 0px;
+    float: left;
+    margin-left: -140px;
+}
+.quote-right {
+    font-size: 70px;
+    line-height: 10px;
+    float: right;
+    margin-right: -140px;
+}
+.tel {
+    margin-top: 30px;
+}
+button{
+    border: 2px solid white;
+    background: rgba(0,0,0,0);
+    font-size: 35px;
+    color: white;
+    margin: 30px;
+    font-family: "bignoodletitling";
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    transition: all 0.4s ease;
+}
+button:hover {
+    background: rgba(255,255,255,0.5);
+}
+.pxbutton{
+    border: 2px solid white;
+    background: rgba(0,0,0,0);
+    font-size: 50px;
+    color: white;
+    margin: 30px;
+    padding-top: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+.section {
+    width: 100%;
+    min-height: 500px;
+    background: rgba(0,0,0,1);
+    font-family: "bignoodletitling";
+}
+
+.slanted-div{
+    min-height: 500px;
+    margin-left: auto;
+    transform: skewX(10deg);
+}
+.slanted-div-inner {
+    transform: skewX(-10deg);
+}
+
+.googlemap {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    height: 500px;;
+}
+.sans-serif {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.our-story .slanted-div{
+    height: 100%;
+    background: rgba(221, 71, 71, 1);
+    width: 60%;
+    margin-right: -10px;
+}
+.location .slanted-div{
+    height: 100%;
+    background: rgba(70, 108, 66, 1);
+    width: 30%;
+    margin-left: auto;
+}
+.contact {
+    background: rgba(30, 131, 127, 1);
+    padding: 100px;
+    padding-top: 50px;
+}
+.contact-inner {
+    margin-top: 100px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: left;
+}
+.contact-shadow {
+    background: rgba(7, 95, 92, 1);
+    height: 50px;
+}
+.sitemap{
+    background: rgba(0, 0,0, 1);
+    padding: 50px;
+}
+.sitemap .pxbutton{
+    border: 2px solid rgb(61, 169, 61);
+    color: rgb(61, 169, 61);
+}
+
+.section h1 {
+    font-size: 60px;
+    padding-top: 30px;
+    font-family: "bignoodletitling", sans-serif;
+}
+
+
+.our-story {
+    background-image: url(../img/our-story.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+    background-position: center;
+    
+}
+.counters {
+    background: rgba(45, 8, 8, 1);
+    padding: 100px;
+}
+.counters h1{
+    color: rgba(187, 116, 56, 1);
+}
+
+.flaticon-burger1:before {
+font-size: 164px;
+}
+.flaticon-cupcake3:before {
+font-size: 164px;
+}
+.flaticon-pizza3:before {
+font-size: 164px;
+}
+.flaticon-tea24:before {
+font-size: 164px;
+}
