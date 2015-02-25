@@ -147,3 +147,10 @@ font-size: 164px;
 .flaticon-tea24:before {
 font-size: 164px;
 }
+
+.foot {
+    color: white;
+    height: 100px;
+    min-height: 50px;
+    font-size: 14px;
+}
