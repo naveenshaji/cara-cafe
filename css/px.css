@@ -171,6 +171,24 @@ font-size: 164px;
     cursor: wait;
     margin-top: 10%;
 }
+@media only screen and (max-width: 670px) {
+
+.preloader-gif {
+    margin: auto;
+
+    width: 50%;
+    height: 50%;
+    background: url(../img/loadingimagemobile.gif) no-repeat;
+    cursor: wait;
+    margin-top: 50%;
+    margin-left: 28%;
+}
+
+
+
+
+    }
+
 
 .foot {
     color: white;
