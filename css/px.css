@@ -138,19 +138,26 @@ button:hover {
 }
 .counters h1{
     color: #EA7F45;
+    padding-top: 0px;
+    padding-bottom: 80px;
+    line-height: 50px;
+}
+.counters h2{
+    color: #EA7F45;
+    margin-top: -10px;
 }
 
 .flaticon-burger1:before {
-font-size: 164px;
+font-size: 120px;
 }
 .flaticon-cupcake3:before {
-font-size: 164px;
+font-size: 120px;
 }
 .flaticon-pizza3:before {
-font-size: 164px;
+font-size: 120px;
 }
 .flaticon-tea24:before {
-font-size: 164px;
+font-size: 120px;
 }
 
 .scrolloff {
@@ -213,4 +220,69 @@ font-size: 164px;
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
+}
+.italian {
+    background: #43BC4F;
+}
+.american {
+    background: #336CA5;
+}
+.american .dblue{
+    color: #203A55;
+}
+.mexican {
+    background: #EA7F45;
+}
+.hot-bev {
+    min-height: 500px;
+    background: #FCB329;
+    padding-left: 100px;
+    color: #000000;
+    transform: skewX(10deg);
+    position: relative;
+    top: -700px;
+    left: 0;
+    width: 45%;
+    float: left;
+}
+.cold-bev {
+    min-height: 500px;
+    background: #30506C;
+    padding-left: 100px;
+    transform: skewX(10deg);
+    position: relative;
+    top: -700px;
+    right: 0;
+    width: 55%;
+    float: right;
+}
+.beverages {
+    text-align: left;
+    font-size: 1.8em;
+    overflow: hidden;
+    height: 650px;
+}
+.beverages .abs-left{
+    background: #FCB329;
+    position: relative;
+    height: 700px;
+    top: 0;
+    left: 0;
+    width: 50%;
+    float: left;
+}
+.beverages .abs-right{
+    background: #30506C;
+    position: relative;
+    height: 700px;
+    top: 0;
+    right: 0;
+    width: 50%;
+    float: right;
+}
+.burger__screen {
+    padding-bottom: 0px;
+}
+b {
+    font-weight: bolder;
 }
