@@ -12,18 +12,21 @@ a:hover {
     line-height: 0px;
     float: left;
     margin-left: -140px;
+        color: #7E232D;
 }
 .quote-right {
     font-size: 70px;
     line-height: 10px;
     float: right;
     margin-right: -140px;
+        color: #7E232D;
 }
 .tel {
     margin-top: 30px;
+    color: #7E232D;
 }
 button{
-    border: 2px solid white;
+    border: 4px solid white;
     background: rgba(0,0,0,0);
     font-size: 35px;
     color: white;
@@ -39,7 +42,7 @@ button:hover {
     background: rgba(255,255,255,0.5);
 }
 .pxbutton{
-    border: 2px solid white;
+    border: 4px solid white;
     background: rgba(0,0,0,0);
     font-size: 50px;
     color: white;
@@ -78,18 +81,18 @@ button:hover {
 
 .our-story .slanted-div{
     height: 100%;
-    background: rgba(221, 71, 71, 1);
+    background: #7F232E;
     width: 60%;
     margin-right: -10px;
 }
 .location .slanted-div{
     height: 100%;
-    background: rgba(70, 108, 66, 1);
+    background: #3E6E46;
     width: 30%;
     margin-left: auto;
 }
 .contact {
-    background: rgba(30, 131, 127, 1);
+    background: #138B87;
     padding: 100px;
     padding-top: 50px;
 }
@@ -100,16 +103,17 @@ button:hover {
     text-align: left;
 }
 .contact-shadow {
-    background: rgba(7, 95, 92, 1);
+    background: #034C4A;
     height: 50px;
 }
 .sitemap{
     background: rgba(0, 0,0, 1);
     padding: 50px;
+    color: #57D063;
 }
 .sitemap .pxbutton{
-    border: 2px solid rgb(61, 169, 61);
-    color: rgb(61, 169, 61);
+    border: 4px solid #57D063;
+    color: #57D063;
 }
 
 .section h1 {
@@ -128,11 +132,12 @@ button:hover {
     
 }
 .counters {
-    background: rgba(45, 8, 8, 1);
+    background: #2A1310;
     padding: 100px;
+    color: #EA7F45;
 }
 .counters h1{
-    color: rgba(187, 116, 56, 1);
+    color: #EA7F45;
 }
 
 .flaticon-burger1:before {
@@ -177,4 +182,35 @@ font-size: 164px;
     height: 100px;
     min-height: 50px;
     font-size: 14px;
+}
+
+.home-1 {
+    background: #FDFCBC !important;
+    color: #7E232D !important;
+}
+
+.btn-container {
+    color: #F8AE1A;
+}
+.home-btn {
+    color: #46030A;
+}
+
+.menu-title {
+    background: #F9B228;
+    min-height: 180px;
+    width: 100% !important;
+    padding-top: 30px;
+}
+.menu-title h1{
+    font-size: 70px;
+    color: #7D212D;
+    border-bottom: 8px solid #7D212D;
+    border-top: 8px solid #7D212D;
+    padding-top: 0px !important;
+    line-height: 80px;
+    width: 140px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }

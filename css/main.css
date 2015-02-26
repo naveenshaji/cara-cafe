@@ -259,8 +259,10 @@ a:focus {
 }
 
 .screen__content {
+/*
     padding-left: 5%;
     padding-right: 5%
+*/
 }
 
 .home__screen {
