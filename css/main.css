@@ -208,7 +208,6 @@ a:focus {
 .burger__screen,
 .store__screen {
     zoom: 1;
-    padding-bottom: 60px;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -288,11 +287,8 @@ a:focus {
 }
 
 .burger__screen {
-    background-image: url("../img/pattern--blue.png");
-    background-repeat: repeat;
-    background-size: 35px 59px;
     padding-right: 56px;
-    background-color: #28A9E0
+    background-color: #F9B228
 }
 
 @media (min-width: 64em) {
