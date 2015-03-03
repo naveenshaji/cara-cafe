@@ -1,0 +1,73 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}.flaticon-agreement2:before {
+	content: "\e000";
+}
+.flaticon-burger7:before {
+	content: "\e001";
+}
+.flaticon-coffee16:before {
+	content: "\e002";
+}
+.flaticon-coin:before {
+	content: "\e003";
+}
+.flaticon-cutlery22:before {
+	content: "\e004";
+}
+.flaticon-double22:before {
+	content: "\e005";
+}
+.flaticon-facebok:before {
+	content: "\e006";
+}
+.flaticon-fork12:before {
+	content: "\e007";
+}
+.flaticon-fruit:before {
+	content: "\e008";
+}
+.flaticon-glass35:before {
+	content: "\e009";
+}
+.flaticon-instagram19:before {
+	content: "\e00a";
+}
+.flaticon-italian1:before {
+	content: "\e00b";
+}
+.flaticon-like80:before {
+	content: "\e00c";
+}
+.flaticon-news29:before {
+	content: "\e00d";
+}
+.flaticon-pita1:before {
+	content: "\e00e";
+}
+.flaticon-pizza7:before {
+	content: "\e00f";
+}
+.flaticon-share3:before {
+	content: "\e010";
+}
+.flaticon-smartphone55:before {
+	content: "\e011";
+}
+.flaticon-twitter12:before {
+	content: "\e012";
+}

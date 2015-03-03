@@ -4153,9 +4153,9 @@ FastClick.prototype.deviceIsAndroid = navigator.userAgent.indexOf("Android") > 0
                 if (b && a.style) {
                     for (var e = 0; e < d.length; e++)
                         for (var f in b) b.hasOwnProperty(f) && (c = f, d[e] && (c = d[e] + c.substring(0, 1).toUpperCase() + c.substring(1)), a.style[c] = b[f]);
-                    "none" == b.userSelect && (a.onselectstart = function () {
-                        return !1
-                    })
+//                    "none" == b.userSelect && (a.onselectstart = function () {
+//                        return !1
+//                    })
                 }
             }
         }, d.detection = {

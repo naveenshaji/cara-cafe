@@ -91,9 +91,7 @@
     <meta property="og:image:height" content="500">
 
     <script>
-
         document.documentElement.className = document.documentElement.className.replace(/(\s|^)no-js(\s|$)/, '$1' + 'js' + '$2');
-
     </script>
 
     <script src="js/modernizr.js"></script>
@@ -105,10 +103,12 @@
     <link rel="stylesheet" href="fa/css/font-awesome.min.css">
 
     <link rel="stylesheet" type="text/css" href="css/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="fi2/flaticon.css">
 
     <link rel="stylesheet" href="css/main.css">
 
     <link rel="stylesheet" href="css/px.css">
+    <link rel="stylesheet" href="css/pace.css">
 
     <![endif]-->
 
@@ -116,9 +116,12 @@
 
 <body>
 
+    <div class="backtotop">
+  <i class="fa fa-chevron-up fa-stack-1x"></i>
+    </div>
     
 
-    <div class="preloader"><div class="preloader-gif"></div></div>
+    <div class="preloader"><div class="preloader-gif"></div><br><span style="font-size:20px">Loading</span></div>
 
 
 
@@ -158,25 +161,19 @@
 
 
 
-  <a id="burger-btn" style="min-height:60px; background: #47040B;" class="home-btn" href="#burgers" data-direction="left">
+  <a id="burger-btn" style="min-height:60px;" class="home-btn" href="#burgers" data-direction="left">
 
 
 
     <div class="icon__menu">
 
-<!--      <img src="img/menu.png" alt="hamburger menu icon" />-->
-
-     <i class="fa fa-bars fa-3x"></i>
-
-      <span>Menu</span>
+     <i class="flaticon-cutlery22"></i>
 
     </div>
 
 
 
     <div class="icon__menu--back">
-
-<!--      <img src="img/back--right.png" alt="back icon" />-->
 
      <i class="fa fa-chevron-right fa-3x"></i>
 
@@ -190,25 +187,20 @@
 
 
 
-  <a id="store-btn" style="background: #47040B" class="home-btn" href="#stores" data-direction="right">
+  <a id="store-btn" class="home-btn" href="#stores" data-direction="right">
 
 
 
     <div class="icon__store">
 
-<!--      <img src="img/store.png" alt="store icon" />-->
+     <i class="flaticon-smartphone55"></i>
 
-     <i class="fa fa-bars fa-3x"></i>
-
-      <span>Menu</span>
 
     </div>
 
 
 
     <div class="icon__store--back">
-
-<!--      <img src="img/back--left.png" alt="back icon" />-->
 
      <i class="fa fa-chevron-left fa-3x"></i>
 
@@ -263,12 +255,31 @@
 
    <div id="ticker-text" >
           <ul>
-            <li>Put some text here</li>
-            <li>Vawal Shaji</li>
-            <li>Kooduthal venamenkil put it in li</li>
-            <li>Bottom js il tweak cheyyam</li>
-            <li>Mobile responsive</li>
-
+            <li>Our secret ingredient of every dish is a dash of love!</li>
+            <li>We’re constantly creating something new. Like cone pizzas and live burrito counters.</li>
+            <li>We believe in quick service; because time, our dear friends, is golden.</li>
+            <li>A gourmet experience at pocket friendly rates.</li>
+            <li>Drop in to grab a quick bite while you’re on the run. </li>
+            <li>Slave to routine? Bah! Quit it, and drop in because we break barriers with innovation.</li>
+            <li>People make stories worth telling over good food. And we’re committed to making that happen.</li>
+            <li>   The place where you have endless conversations over endless cups of coffee.    </li>
+            <li>  Take a break from the monotonous humdrum of your lives with a nice, quiet meal at Cara.     </li>
+            <li>   American, Lebanese, Italian, Mexican. You’re never limited by choice of cuisine here.    </li>
+            <li>     A dish that looks good tastes even better.  </li>
+            <li>    We go an extra mile to get that smile on your face even before you’ve tried the dish.   </li>
+            <li>   Read a book. Good background music. Some conversations you treasure. All of these over a scrumptious meal. Only at Cara Express.    </li>
+            <li>  Money ain’t seeping out of your pockets here. Every penny counts. Every moment is treasured.     </li>
+            <li>   You culinary experience travels over continents. It’s reasonable and it’s vegetarian. It’s extensive. Period.    </li>
+            <li>   When we say Burritos, we mean Burritos. Not a culmination of vegetables and sauce wrapped in wheat flour. Authenticity runs in our blood.    </li>
+            <li>    From Italian to Lebanese, we believe food has no geographical boundaries.   </li>
+            <li>   Coffee.  Friends and memories.  We make them all.    </li>
+            <li>   Passion, fun and innovation . The mantra we live by.    </li>
+            <li> Mexican Tacos. American Burgers. They get along well at Cara.      </li>
+            <li>   Humus and Pita Bread. Alferdo Pasta. Italian pizza. Turns out food is multicultural.    </li>
+            <li>   Italian pizzas. Hollywood movies. Sundays sorted.    </li>
+            <li>    Quick deliveries cause food cant wait.   </li>
+            <li>   Who knew tic tac toe could get you a pretty cupcake?    </li>
+            <li>    Coffee. Cupcakes. Cool packaging. The three C's we care about.     </li>
 
           </ul>
         </div>
@@ -278,7 +289,7 @@
 
    <span class="quote-right"><i class="fa fa-quote-right"></i></span> 
 
-   <br><Br><br>
+   <br style="margin-bottom: 10px;">
 
    
 
@@ -327,7 +338,7 @@
   <br><br>
 
   
-
+<a class="scroll-down">
   <span class="fa-stack fa-sm">
 
   <i class="fa fa-circle-thin fa-stack-2x"></i>
@@ -335,7 +346,7 @@
   <i class="fa fa-chevron-down fa-stack-1x"></i>
 
 </span>
-
+</a>
   
 
    </span>
@@ -350,59 +361,267 @@
 
 
 
-<div class="section our-story">
 
-   <div class="slanted-div">
+   
 
-   <div class="slanted-div-inner">
+   <!--carousel-->
+   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+			  	<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+			</ol>
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+			    <div class="item active">
+			    <div class="section our-story no-zoom">
+                   <div style="width:30%; float:left; margin-top: 10%; margin-left: 5%;"><span class="flaticon-news29"></span></div>
+                    <!-- Static Header -->
+                    <div class="header-text">
+                        
+                        <div class="slanted-div">
 
-    <h1>OUR STORY</h1>
+                   <div class="slanted-div-inner">
 
-    <div style="font-family: sans-serif; padding: 40px; text-align: justify;" class="slanted-content">
+                    <h1>OUR STORY</h1>
 
-    <b>This journey began in 2013.</b> <br>
+                    <div style="padding: 40px; text-align: justify;" class="slanted-content sans-serif">
 
-    So it began with the aroma of coffee being brewed whilst people came in, chit chatted and hogged on to try out different cuisines on the menu. Things were going well, people came in, ate, drank, and the days went on as usual.
+                    <b>Search for 'part27' in index.html source to see how to edit slides</b> <br>
 
-    <br><br>
+                        So it began with the aroma of coffee being brewed whilst people came in, chit chatted and hogged on to try out different cuisines on the menu. Things were going well, people came in, ate, drank, and the days went on as usual.
 
-
-
-<b>The things that we typically heard at the cafe</b>
-
-<br>
-
- "Bhaiyaa, ek cup coffee jaldi."<br>
-
- "Can I please have that red velvet shake?"<br>
-
- But, then it still seemed like this was not it. We loved food and we loved serving people, and although we were beginning to acccomplish those goals, it was incomplete. A cafe can't just be a cafe and this can't just be it.
-
-  </div>
-
-  <button onclick="window.location.href='join.html'">JOIN US</button>
-
-   </div>
-
-   </div>
-
-</div>
+                    <br><br>
 
 
 
+                    <b>The things that we typically heard at the cafe</b>
+
+                    <br>
+
+                 "Bhaiyaa, ek cup coffee jaldi."<br>
+
+                 "Can I please have that red velvet shake?"<br>
+
+                     But, then it still seemed like this was not it. We loved food and we loved serving people, and although we were beginning to acccomplish those goals, it was incomplete. A cafe can't just be a cafe and this can't just be it.
+
+                      </div>
+
+                      <button onclick="window.location.href='join.html'">JOIN US</button>
+
+                       </div>
+
+                       </div>
+                        
+                    </div><!-- /header-text -->
+                    
+                    </div></div>
+			    
+			    
+			    <div class="item">
+			    	<!-- Static Header -->
+                    <div class="header-text">
+                        <div class="section our-story no-zoom" style="background: #FF59C3;"> <!--CHANGE BG COLOR HERE FOR THiS SLIDE part27-->
+                        <div style="width:30%; float:left; margin-top: 10%; margin-left: 5%;"><span class="flaticon-news29"></span></div>
+                        <div class="slanted-div" style="background: #FFAC26;"><!--CHANGE FG COLOR HERE FOR THiS SLIDE -->
+
+                   <div class="slanted-div-inner">
+
+                    <h1>OUR STORY</h1>
+
+                    <div style="padding: 40px; text-align: justify;" class="slanted-content sans-serif">
+
+                    <b>This journey began in 2013.</b> <br>
+
+                        So it began with the aroma of coffee being brewed whilst people came in, chit chatted and hogged on to try out different cuisines on the menu. Things were going well, people came in, ate, drank, and the days went on as usual.
+
+                    <br><br>
+
+
+
+                    <b>The things that we typically heard at the cafe</b>
+
+                    <br>
+
+                 "Bhaiyaa, ek cup coffee jaldi."<br>
+
+                 "Can I please have that red velvet shake?"<br>
+
+                     But, then it still seemed like this was not it. We loved food and we loved serving people, and although we were beginning to acccomplish those goals, it was incomplete. A cafe can't just be a cafe and this can't just be it.
+
+                      </div>
+
+                      <button onclick="window.location.href='join.html'">JOIN US</button>
+
+                       </div>
+
+                       </div>
+                        
+                    </div><!-- /header-text -->
+                    </div></div>
+			    <div class="item">
+			    <div class="section our-story no-zoom">
+			    <div style="width:30%; float:left; margin-top: 10%; margin-left: 5%;"><span class="flaticon-news29"></span></div>
+			    	<!-- Static Header -->
+                    <div class="header-text">
+                        
+                        <div class="slanted-div">
+
+                   <div class="slanted-div-inner">
+
+                    <h1>OUR STORY</h1>
+
+                    <div style="padding: 40px; text-align: justify;" class="slanted-content sans-serif">
+
+                    <b>This journey began in 2013.</b> <br>
+
+                        So it began with the aroma of coffee being brewed whilst people came in, chit chatted and hogged on to try out different cuisines on the menu. Things were going well, people came in, ate, drank, and the days went on as usual.
+
+                    <br><br>
+
+
+
+                    <b>The things that we typically heard at the cafe</b>
+
+                    <br>
+
+                 "Bhaiyaa, ek cup coffee jaldi."<br>
+
+                 "Can I please have that red velvet shake?"<br>
+
+                     But, then it still seemed like this was not it. We loved food and we loved serving people, and although we were beginning to acccomplish those goals, it was incomplete. A cafe can't just be a cafe and this can't just be it.
+
+                      </div>
+
+                      <button onclick="window.location.href='join.html'">JOIN US</button>
+
+                       </div>
+
+                       </div>
+                        
+                    </div><!-- /header-text -->
+                    </div></div>
+                    
+                    
+                    
+                    <div class="item">
+			    	<!-- Static Header -->
+                    <div class="header-text">
+                        <div class="section our-story no-zoom">
+                        <div style="width:30%; float:left; margin-top: 10%; margin-left: 5%;"><span class="flaticon-news29"></span></div>
+                        <div class="slanted-div">
+
+                   <div class="slanted-div-inner">
+
+                    <h1>OUR STORY</h1>
+
+                    <div style="padding: 40px; text-align: justify;" class="slanted-content sans-serif">
+
+                    <b>This journey began in 2013.</b> <br>
+
+                        So it began with the aroma of coffee being brewed whilst people came in, chit chatted and hogged on to try out different cuisines on the menu. Things were going well, people came in, ate, drank, and the days went on as usual.
+
+                    <br><br>
+
+
+
+                    <b>The things that we typically heard at the cafe</b>
+
+                    <br>
+
+                 "Bhaiyaa, ek cup coffee jaldi."<br>
+
+                 "Can I please have that red velvet shake?"<br>
+
+                     But, then it still seemed like this was not it. We loved food and we loved serving people, and although we were beginning to acccomplish those goals, it was incomplete. A cafe can't just be a cafe and this can't just be it.
+
+                      </div>
+
+                      <button onclick="window.location.href='join.html'">JOIN US</button>
+
+                       </div>
+
+                       </div>
+                        
+                    </div><!-- /header-text -->
+                    </div></div>
+                    
+                    
+                    
+                    
+                    <div class="item">
+			    	<!-- Static Header -->
+                    <div class="header-text">
+                        <div class="section our-story no-zoom">
+                        <div style="width:30%; float:left; margin-top: 10%; margin-left: 5%;"><span class="flaticon-news29"></span></div>
+                        <div class="slanted-div">
+
+                   <div class="slanted-div-inner">
+
+                    <h1>OUR STORY</h1>
+
+                    <div style="padding: 40px; text-align: justify;" class="slanted-content sans-serif">
+
+                    <b>This journey began in 2013.</b> <br>
+
+                        So it began with the aroma of coffee being brewed whilst people came in, chit chatted and hogged on to try out different cuisines on the menu. Things were going well, people came in, ate, drank, and the days went on as usual.
+
+                    <br><br>
+
+
+
+                    <b>The things that we typically heard at the cafe</b>
+
+                    <br>
+
+                 "Bhaiyaa, ek cup coffee jaldi."<br>
+
+                 "Can I please have that red velvet shake?"<br>
+
+                     But, then it still seemed like this was not it. We loved food and we loved serving people, and although we were beginning to acccomplish those goals, it was incomplete. A cafe can't just be a cafe and this can't just be it.
+
+                      </div>
+
+                      <button onclick="window.location.href='join.html'">JOIN US</button>
+
+                       </div>
+
+                       </div>
+                        
+                    </div><!-- /header-text -->
+                    </div></div>
+                    
+                    
+                    
+                    
+                    
+                    
+			</div>
+			<!-- Controls -->
+			<a class="story-btn story-left" href="#carousel-example-generic" data-slide="prev">
+		    	<span class="fa fa-chevron-left fa-5x"></span>
+			</a>
+			<a class="story-btn story-right" href="#carousel-example-generic" data-slide="next">
+		    	<span class="fa fa-chevron-right fa-5x"></span>
+			</a>
+		</div><!-- /carousel -->
+   
 
 
 
 
 <div class="section counters">
 
-<div class="row">
+<div>
 
     <div class="col-md-3">
 
        <h1><span class="counter">1,493</span></h1>
 
-       <h1><i class="flaticon-burger1"></i></h1>
+       <h1><i class="flaticon-double22"></i></h1>
 
        <h2>MAC 'N' CHEESE</h2>
 
@@ -414,9 +633,10 @@
 
        <h1><span class="counter">2,394</span></h1>
 
-       <h1><i class="flaticon-cupcake3"></i></h1>
+<!--       <h1><i class="flaticon-pita1"></i></h1>-->
+       <h1 style="margin-top: -20px;"><i><img height="120" src="img/sandwich.png"></i></h1>
 
-       <h2>GRILLED PORTOBELLO</h2>
+       <h2 style="margin-top: -45px;">GRILLED PORTOBELLO</h2>
 
        <H1>SANDWICHES</H1>
 
@@ -426,7 +646,7 @@
 
        <h1><span class="counter">1,846</span></h1>
 
-       <h1><i class="flaticon-pizza3"></i></h1>
+       <h1><i class="flaticon-pizza7"></i></h1>
 
        <h2>CARA SPECIAL</h2>
 
@@ -438,9 +658,10 @@
 
        <h1><span class="counter">1,274</span></h1>
 
-       <h1><i class="flaticon-tea24"></i></h1>
-
-       <h2>RED VELVET</h2>
+<!--       <h1><i class="flaticon-glass35"></i></h1>-->
+       <h1 style="margin-top: -20px;"><i><img height="120" src="img/shake.png"></i></h1>
+       
+       <h2 style="margin-top: -45px;">RED VELVET</h2>
 
        <H1>SHAKES</H1>
 
@@ -456,7 +677,7 @@
 
 
 
-<div class="section location">
+<div class="section location no-zoom">
 
  <section id="canvas1" class="map">
 
@@ -469,11 +690,23 @@
    <div class="slanted-div-inner">
 
     <h1>LOCATION</h1>
-
-    <i class="fa fa-map-marker fa-5x"></i>
-
-    <span class="sans-serif" style="margin-top:50px;">  Shop No. 2,3,4, Konark Estate,<br> Opp. Neco Gardens, Datta Mandir Chowk,<br> Viman, Nagar, Pune, Maharashtra 411014</span>
-
+<br><br>
+   <div class="addresses" style="text-align: left;">
+   
+   
+   <ul class="nav nav-tabs" style="padding-left: 10%;">
+  <li role="presentation" class="active-tab"><a id="shop1"><img height="70" src="img/shop.png"></a></li>
+  <li role="presentation"><a id="shop2"><img height="70" src="img/shop.png"></a></li>
+  <li role="presentation"><a id="shop3"><img height="70" src="img/shop.png"></a></li>
+</ul>
+   
+    <div class = "location-data" style="margin-top: 50px;">
+<!--    <i class="fa fa-map-marker fa-5x" style="float:left; margin-left: 10%; margin-right: 3%"></i>-->
+   <img height="70" src="img/shop.png" style="float:left; margin-left: 10%; margin-right: 3%">
+    <span class="sans-serif location-text" style="margin-top:50px; font-size: 20px;">  Shop No. 2,3,4, Konark Estate,<br> Opp. Neco Gardens, Datta Mandir Chowk,<br> Viman, Nagar, Pune, Maharashtra 411014</span>
+    </div>
+    
+  </div>
    </div>
 
    </div>
@@ -486,62 +719,42 @@
 
 
 
-<div class="section contact">
+<div class="section no-zoom contact">
 
-    <span class="pxbutton">CONTACT US</span>
+    <span class="pxbutton-contact">CONTACT&nbsp;US</span>
 
     <div class="row contact-inner">
 
-        <div class="col-md-4">
+        
 
-            <div class="col-md-2">
-
-                <i class="fa fa-envelope-o fa-3x"></i>
-
-            </div>
-
-            <div class="col-md-10">
-
-                Have any questions?<br><i>caracafe@gmail.com</i>
-
-            </div>
-
+        <div class="col-md-3">
+                <span class="fa fa-phone fa-3x" style="float: left"></span>
+                Call us?<br><span style="font-style:italic">096893 26616</span>
         </div>
 
         
-
-        <div class="col-md-4">
-
-            <div class="col-md-2">
-
-                <i class="fa fa-phone fa-3x"></i>
-
-            </div>
-
-            <div class="col-md-10">
-
-                Call us?<br><i>096893 26616</i>
-
-            </div>
-
+        <div class="col-md-6" style="text-align:center">
+            
+            <a href="http://facebook.com/" target="_blank">
+                <span class="flaticon-facebok"></span> 
+            </a>
+            <a href="http://facebook.com/" target="_blank">
+                <span class="flaticon-instagram19"></span> 
+            </a>
+            <a href="http://facebook.com/" target="_blank">
+                <span class="flaticon-twitter12"></span> 
+            </a>
+            <a href="http://facebook.com/" target="_blank">
+                <span class="flaticon-share3"></span> 
+            </a>
+            
         </div>
-
+        
         
 
-        <div class="col-md-4">
-
-            <div class="col-md-2">
-
-                <i class="fa fa-envelope-o fa-3x"></i>
-
-            </div>
-
-            <div class="col-md-10">
-
-                Have any questions?<br><i>caracafe@gmail.com</i>
-
-            </div>
-
+        <div class="col-md-3">
+                <span class="fa fa-envelope-o fa-3x" style="float: left"></span>
+                Have any questions?<br><span style="font-style:italic">caracafe@gmail.com</span>
         </div>
 
     </div>
@@ -556,7 +769,7 @@
 
 
 
-<div class="section sitemap">
+<div class="section no-zoom sitemap">
 
     <span class="pxbutton">SITE MAP</span>
 
@@ -576,47 +789,7 @@
 
         </div>
 
-        <div class="col-sm-4">
-
-            SOCIAL <br><br>
-
-            <a href="http://facebook.com/">
-
-   <span class="fa-stack fa-sm">
-
-  <i class="fa fa-circle-thin fa-stack-2x"></i>
-
-  <i class="fa fa-facebook fa-stack-1x"></i>
-
-</span>
-
-  </a>
-
-  <a href="http://facebook.com/">
-
-   <span class="fa-stack fa-sm">
-
-  <i class="fa fa-circle-thin fa-stack-2x"></i>
-
-  <i class="fa fa-twitter fa-stack-1x"></i>
-
-</span>
-
-  </a>
-
-  <a href="http://facebook.com/">
-
-   <span class="fa-stack fa-sm">
-
-  <i class="fa fa-circle-thin fa-stack-2x"></i>
-
-  <i class="fa fa-google-plus fa-stack-1x"></i>
-
-</span>
-
-  </a>
-
-        </div>
+       
 
         <div class="col-sm-4">
 
@@ -627,6 +800,39 @@
             Press
 
         </div>
+        
+        
+         <div class="col-sm-4">
+
+
+            <a href="http://facebook.com/">
+
+   Facebook
+
+  </a><br>
+
+  <a href="http://facebook.com/">
+
+   Instagram
+
+  </a><br>
+
+  <a href="http://facebook.com/">
+
+   Twitter
+
+  </a><br>
+   <a href="http://facebook.com/">
+
+   Pinterest
+
+  </a><br>
+        
+
+        </div>
+        
+        
+        
 
     </div>
 
@@ -634,7 +840,7 @@
 
 
 
-<div class="section foot sans-serif" style="height: 60px;">
+<div class="section no-zoom foot sans-serif" style="height: 60px;">
 
    <br>
 
@@ -674,13 +880,15 @@
 
 <div class="italian section">
 
-    <h1>ITALIAN</h1>
+    <h1 style="color: #FDFCBC;"><img height="50" src="img/italy.png">&nbsp;ITALIAN</h1>
 
     <div class="sans-serif">
 
        <br>
 
-       <br>
+<!--       <i class="flaticon-italian1"></i>-->
+       <img src="img/pizzay.png">
+        <br><br>
 
         <b>Margherita<br><br>Cara Special<br><Br>Make your own pizza: 4 toppings</b>
 
@@ -690,6 +898,9 @@
 
         Onions | Tomatoes | Olives | Corn<br>Jalapeno | Mushroom | Ball Pepper
 
+        <br><br>
+<!--        <i class="flaticon-fork12"></i>-->
+       <img src="img/forky.png">
         <br><br>
 
         <b>Arrabiata | Alfredo | Pesto<br><br>Toppings</b>
@@ -708,21 +919,21 @@
 
 <div class="american section">
 
-    <h1>AMERICAN</h1>
+    <h1 style="color: #FDFCBC;"><img height="50" src="img/usa.png">&nbsp;AMERICAN</h1>
 
     <div class="sans-serif">
 
        <br>
-
-       <br>
+        
+<!--        <i class="flaticon-pita1"></i>-->
+      <img src="img/sandwichy.png">
+       <br><br>
 
         <b>Foccacia<br>Grilled Portebello<br>Cheese Grilled</b>
 
         <br>
-
+        <span class="flaticon-burger7"></span>
         <br>
-
-        <br><br>
 
         <b>Mac n Cheese<br>Soya Burger</b>
 
@@ -760,12 +971,14 @@
 
 <div class="mexican section">
 
-    <h1>MEXICAN</h1>
+    <h1 style="color: #FDFCBC;"><img height="50" src="img/mex.png">&nbsp;MEXICAN</h1>
 
     <div class="sans-serif">
 
        <br>
-
+<!--        <i class="flaticon-double22"></i>-->
+      <img src="img/tacosy.png">
+      <br>
        <br>
 
         <b>Choose your base<br></b>
@@ -817,7 +1030,7 @@
    <div class="slanted-div-inner">
 
    <br><Br><br>
-
+    <span class="flaticon-coffee16"></span>
    <b>Hot<br>Beverages</b>
 
    <br><br><b>Espresso<br>Americano<br>Latte<br>Mocha<br>Cappuccino<br>Hot Chocolate<br>Tea Pyramid Bags<br></b>
@@ -837,7 +1050,8 @@
    <div class="slanted-div-inner">
 
    <br><Br><br>
-
+<!--    <i class="flaticon-fruit"></i>-->
+  <img height="100" src="img/shakey.png">
    <b>Cold<br>Beverages</b>
 
    <br><br><b>Iced Americano<br>Iced Latte<br>Iced Caffe Mocha<br>Frappe<br>Iced Tea</b><br>
@@ -888,15 +1102,15 @@
 
     <div class="row">
 
-       <div class="col-sm-4">
-
+       <div class="col-sm-4 img-hold">
+         &nbsp; &nbsp;<img height='400' src="img/ipa.png"></img>
        </div>
 
         <div class="col-sm-8">
 
-        <span class="pxbutton">JOIN THE EXPERIENCE</span><br><br><br><br>
+        <div class="pxbutton">JOIN THE EXPERIENCE</div><br><br><br><br>
 
-        <div class="sans-serif">
+        <div class="sans-serif" style="margin-left:5%;">
 
         Cara Express presents the new wonderful kickass app that you will love.<br>So what are you waiting for? Download it today!
 
@@ -918,31 +1132,31 @@
 
        <div class="col-sm-4">
 
-       <span class="pxbutton-black" >HOW TO WIN REWARDS?</span><br><Br>
+       <div class="pxbutton-black" >HOW TO WIN REWARDS?</div><br><Br>
 
        <div class="sans-serif">
 
-       Try the app - 100<br>
+       Try the app - 100<i class="flaticon-coin"></i><br>
 
-       Try the app - 100<br>
+       Try the app - 100<i class="flaticon-coin"></i><br>
 
-       Try the app - 100<br>
+       Try the app - 100<i class="flaticon-coin"></i><br>
 
-       Try the app - 100<br>
+       Try the app - 100<i class="flaticon-coin"></i><br>
 
-       Try the app - 100<br>
+       Try the app - 100<i class="flaticon-coin"></i><br>
 
-       Try the app - 100<br>
+       Try the app - 100<i class="flaticon-coin"></i><br>
 
-       Try the app - 100<br>
+       Try the app - 100<i class="flaticon-coin"></i><br>
 
-       Try the app - 100<br>
+       Try the app - 100<i class="flaticon-coin"></i><br>
 
-       Try the app - 100<br>
+       Try the app - 100<i class="flaticon-coin"></i><br>
 
-       Try the app - 100<br>
+       Try the app - 100<i class="flaticon-coin"></i><br>
 
-       Try the app - 100<br>
+       Try the app - 100<i class="flaticon-coin"></i><br>
 
        </div>
 
@@ -950,25 +1164,25 @@
 
         <div class="col-sm-8">
 
-        <h1 style="font-size:72px;font-family: 'bignoodletitling'; color: #000;">ONE POINT = </h1><br><br>
+        <h1 style="font-size:72px;font-family: 'bignoodletitling'; color: #000;">ONE POINT = 1<i class="flaticon-coin"></i></h1><br><br>
 
-        <h1 style="font-size:52px;font-family: 'bignoodletitling'; color: #000;">YOU GET 1 ON EVERY RS. 10/- YOU SPEND AT CARA </h1><br>
+        <h1 style="font-size:52px;font-family: 'bignoodletitling'; color: #000;">YOU GET 1<i class="flaticon-coin"></i> ON EVERY RS. 10/- YOU SPEND AT CARA </h1><br>
 
         <br><br><BR><BR>
 
-        <span class="pxbutton-black" >REDEEM POINTS AT CARA</span><br><Br>
+        <div class="pxbutton-black" >REDEEM POINTS AT CARA</div><br><Br>
 
         <div class="sans-serif">
 
-        250 for Latte/Cappuchino<br>
+        250<i class="flaticon-coin"></i>&nbsp; for Latte/Cappuchino<br>
 
-        500 for Sandwich<br>
+        500<i class="flaticon-coin"></i>&nbsp; for Sandwich<br>
 
-        750 for Burgers/wraps <br>
+        750<i class="flaticon-coin"></i>&nbsp; for Burgers/wraps <br>
 
-        1000 for Pasta <br>
+        1000<i class="flaticon-coin"></i>&nbsp; for Pasta <br>
 
-        1250 for Pizza <br>
+        1250<i class="flaticon-coin"></i>&nbsp; for Pizza <br>
 
         <br><br><br><br>
 
@@ -1005,27 +1219,14 @@
 
 
   <script src="js/jquery.min.js"></script>
-
-
-
-  <script src="js/jquery.typer.js"></script>
-
   <script src="js/main.js"></script>
-
-   
-
      <script src="js/jquery.nicescroll.min.js"></script>
-
      <script src="js/jquery.counterup.js"></script>
-
      <script src="js/waypoints.js"></script>
-
-     <script src="js/scrollReveal.min.js"></script>
    <script src="js/vticker.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/pace.min.js"></script>
     <script>
-
-
-
 $(document).ready(
 
     function ($) {
@@ -1043,11 +1244,6 @@ $(document).ready(
     }
 
 );
-
-
-
-
-
 </script>
 
 <script>
@@ -1061,7 +1257,24 @@ $(document).ready(
             time: 5000
 
         });
+        
+        $(document).ready(function () {
+        $(window).scroll(function () {
+        if ($(this).scrollTop() > 300) {
+            $('.backtotop').fadeIn();
+        } else {
+            $('.backtotop').fadeOut();
+        }
+    });
 
+    //Click event to scroll to top
+    $('.backtotop').click(function () {
+        $('html, body').animate({
+            scrollTop: 0
+        }, 800);
+        return false;
+    });
+        });
     });
 
 </script>
@@ -1069,14 +1282,14 @@ $(document).ready(
 <script>
 
     $(document).ready(function () {
+        
+        $('.backtotop').fadeOut();
 
-
-
-        $('#map_canvas1').addClass('scrolloff'); // set the pointer events to none on doc ready
+        $('#map_canvas1').addClass('scrolloff'); 
 
         $('#canvas1').on('click', function () {
 
-            $('#map_canvas1').removeClass('scrolloff'); // set the pointer events true on click
+            $('#map_canvas1').removeClass('scrolloff'); 
 
         });
 
@@ -1084,7 +1297,7 @@ $(document).ready(
 
         $("#map_canvas1").mouseleave(function () {
 
-            $('#map_canvas1').addClass('scrolloff'); // set the pointer events to none when mouse leaves the map area
+            $('#map_canvas1').addClass('scrolloff'); 
 
         });
 
@@ -1101,21 +1314,54 @@ $(document).ready(
         $('.site__content').css("opacity","1");
 
         $('.preloader').hide();
+        
+        $('.backtotop').css("opacity","1");
 
     });
 
+        
 
 
 </script>
 
 <script type="text/javascript">
-    /*TEXT TICKER (ONLY FOR HOME PAGE)*/
     $('#ticker-text').vTicker('init', {
       speed: 300,
-        pause: 2000
+        pause: 8000
       });
   </script>
-
+<script>
+        $(document).ready(function(){
+                
+            $('#shop1').click(function(){
+                $('.nav-tabs li').removeClass("active-tab");
+                $(this).parent().addClass("active-tab");
+                $('.location-text').html("Shop No. 2,3,4, Konark Estate,<br> Opp. Neco Gardens, Datta Mandir Chowk,<br> Viman, Nagar, Pune, Maharashtra 411014"); 
+            });
+            $('#shop2').click(function(){
+                $('.nav-tabs li').removeClass("active-tab");
+                $(this).parent().addClass("active-tab");
+                $('.location-text').html("Another Shop No. 2,3,4,Random,<br> Opp. lol Gardens, Someplace,<br> Viman, Nagar, Pune, Maharashtra 411014"); 
+            });
+            $('#shop3').click(function(){
+                $('.nav-tabs li').removeClass("active-tab");
+                $(this).parent().addClass("active-tab");
+                $('.location-text').html("Yet Another Shop, Konark Estate,<br> West Cliff Gardens, Datta Chowk,<br> Viman, Nagar, Pune, Maharashtra 411014"); 
+            });
+            
+            
+            $('.scroll-down').click(function(){
+                $('html, body').animate({
+                    scrollTop: $('.home-1').height()
+                }, 800);
+                return false;
+            });
+            
+        });
+            
+            
+            
+            </script>
 
 
 
