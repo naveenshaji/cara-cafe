@@ -576,7 +576,7 @@ a:focus {
     #ticker-text {
         width: 260px!important;
         font-size: 0.5em;
-        height: 40px!important;
+        height: 40px;
     }
     .quote-left {
         margin-left: 5px;
@@ -610,4 +610,51 @@ a:focus {
 }
 .nav-tabs {
     border-bottom: 3px solid #065D3A;
+}
+
+@media (max-width: 64em) {
+    .slanted-div {
+        transform: none !important;
+        width: 100% !important;
+        margin-left: 0px !important;
+    }
+    .slanted-div-inner {
+        transform: none !important;
+    }
+    .hot-bev {
+        transform: none !important;
+        position: static;
+        width: 100%;
+    }
+    .cold-bev {
+        transform: none !important;
+        position: static;
+        width: 100%;
+    }
+    .beverages {
+        overflow: visible;
+    }
+    .abs-left {
+        display: none;
+    }
+    .abs-right {
+        display: none;
+    }
+    .story-ico {
+        display: none;
+    }
+    .map {
+        display: none;
+    }
+    #ticker-text ul li {
+        text-align: center;
+        list-style-type: none;
+        font-size: 1.2em;
+        color: #7E232D;
+        height: 110px !important;
+    }
+    .app-blue img{
+        height: 200px;
+        z-index: -1;
+    }
 }
