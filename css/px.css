@@ -123,20 +123,21 @@ i {
 
 .slanted-div {
     min-height: 500px;
-    margin-left: auto;
+    margin-left: 35%;
     transform: skewX(10deg);
 }
 
 .slanted-div-inner {
     transform: skewX(-10deg);
+    padding-right: 100px;
+    padding-left: 30px;
 }
 
 .googlemap {
     width: 100%;
     position: absolute;
     left: 0;
-    height: 500px;
-    ;
+    height: 576px;
 }
 
 .sans-serif {
@@ -147,7 +148,7 @@ i {
 .our-story .slanted-div {
     height: 100%;
     background: #155D85;
-    width: 60%;
+    width: 70%;
     margin-right: -10px;
 }
 
@@ -155,11 +156,17 @@ i {
     height: 100%;
     background: #1DB578;
     width: 50%;
-    margin-left: auto;
+    margin-left: 60%;
+    padding: 0;
+    overflow: hidden;
+}
+.location .slanted-div-inner {
+    padding: 0;
 }
 .location {
     min-height: 200px;
 }
+
 
 .contact {
     background: #2A1310;
@@ -609,9 +616,23 @@ a:focus {
     border-bottom: 5px solid #ACF88B;
 }
 .nav-tabs {
-    border-bottom: 3px solid #065D3A;
+    border-bottom: 5px solid #065D3A;
 }
-
+.location-low {
+    background: #0D7C51;
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 70px
+}
+.addresses2 {
+    padding-right: 140px;
+}
+.addresses2 img {
+    margin-bottom: 55px;
+}
+.addresses1 li {
+    cursor: pointer;
+}
 @media (max-width: 64em) {
     .slanted-div {
         transform: none !important;
@@ -620,6 +641,8 @@ a:focus {
     }
     .slanted-div-inner {
         transform: none !important;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .hot-bev {
         transform: none !important;
@@ -657,4 +680,48 @@ a:focus {
         height: 200px;
         z-index: -1;
     }
+    .story-left {
+        left: -50px;
+    }
+    .story-right {
+        right: -50px;
+    }
+    .story-left span {
+        left: 10px;
+    }
+    .story-right span {
+        right: 10px;
+    }
+    .story-btn {
+        display: block;
+        position: absolute;
+        top: 45%;
+        padding: 10px;
+        border: 3px solid #fdfcbc;
+        border-radius: 70px;
+        background: #fdfcbc;
+        color: #7E232D !important;
+        padding-left: 20px;
+        padding-right: 20px;
+        opacity: 0.8;
+    }
+    .addresses1 img {
+        height: 100px;
+    }
+    .addresses1 li {
+        font-size: 16px;
+    }
+    .addresses2 img {
+        margin-bottom: 50px;
+    }
+    .addresses2 {
+        padding-right: 20px;
+    }
+    #loc-head {
+        margin-left: auto;
+    }
+}
+
+#loc-head {
+    margin-left: -25%;
 }

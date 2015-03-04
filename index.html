@@ -410,7 +410,7 @@
 
                       </div>
 
-                      <button onclick="window.location.href='join.html'">JOIN US</button>
+                      <button onclick="window.open('join.html','_blank')">JOIN US</button>
 
                        </div>
 
@@ -454,7 +454,7 @@
 
                       </div>
 
-                      <button onclick="window.location.href='join.html'">JOIN US</button>
+                      <button onclick="window.open('join.html','_blank')">JOIN US</button>
 
                        </div>
 
@@ -496,7 +496,7 @@
 
                       </div>
 
-                      <button onclick="window.location.href='join.html'">JOIN US</button>
+                      <button onclick="window.open('join.html','_blank')">JOIN US</button>
 
                        </div>
 
@@ -540,7 +540,7 @@
 
                       </div>
 
-                      <button onclick="window.location.href='join.html'">JOIN US</button>
+                      <button onclick="window.open('join.html','_blank')">JOIN US</button>
 
                        </div>
 
@@ -585,7 +585,7 @@
 
                       </div>
 
-                      <button onclick="window.location.href='join.html'">JOIN US</button>
+                      <button onclick="window.open('join.html','_blank')">JOIN US</button>
 
                        </div>
 
@@ -689,30 +689,35 @@
 
    <div class="slanted-div-inner">
 
-    <h1>LOCATION</h1>
+   
+    <h1 id="loc-head">LOCATION</h1>
 <br><br>
-   <div class="addresses" style="text-align: left;">
-   
-   
-   <ul class="nav nav-tabs" style="padding-left: 10%;">
-  <li role="presentation" class="active-tab"><a id="shop1"><img height="70" src="img/shop.png"></a></li>
-  <li role="presentation"><a id="shop2"><img height="70" src="img/shop.png"></a></li>
-  <li role="presentation"><a id="shop3"><img height="70" src="img/shop.png"></a></li>
+   <div class="addresses1" style="text-align: left;">
+   <ul class="nav nav-tabs sans-serif" style="padding-left: 10%;">
+  <li role="presentation"><a id="shop1"><img height="120" src="img/shop.png"><br>Aundh Road</a></li>
+  <li role="presentation" class="active-tab"><a id="shop2"><img height="120" src="img/shop.png"><br>Viman Nagar</a></li>
+  <li role="presentation"><a id="shop3"><img height="120" src="img/shop.png"><br>Kondwha</a></li>
 </ul>
+   </div>
    
+
+   <div class="location-low">
+   <div class="addresses2" style="text-align: left;">
     <div class = "location-data" style="margin-top: 50px;">
 <!--    <i class="fa fa-map-marker fa-5x" style="float:left; margin-left: 10%; margin-right: 3%"></i>-->
-   <img height="70" src="img/shop.png" style="float:left; margin-left: 10%; margin-right: 3%">
-    <span class="sans-serif location-text" style="margin-top:50px; font-size: 20px;">  Shop No. 2,3,4, Konark Estate,<br> Opp. Neco Gardens, Datta Mandir Chowk,<br> Viman, Nagar, Pune, Maharashtra 411014</span>
+   <img height="120" src="img/shop.png" style="float:left; margin-left: 10%; margin-right: 3%">
+    <span class="sans-serif location-text" style="margin-top:50px; font-size: 20px;"><b>Viman Nagar</b><bR>Shop No. 2,3,4, Konark Estate,<br> Opp. Neco Gardens, Datta Mandir Chowk,<br> Viman, Nagar, Pune, Maharashtra 411014</span>
     </div>
-    
   </div>
+  </div>
+
+
+
    </div>
 
    </div>
 
 </div>
-
 
 
 
@@ -1232,6 +1237,8 @@ $(document).ready(
 
     function ($) {
 
+        if($(window).width()>700)
+        {
         $("html").niceScroll({
 
             scrollspeed: 100,
@@ -1241,6 +1248,8 @@ $(document).ready(
             zindex: 9999
 
         });
+        }
+
 
     }
 
@@ -1276,6 +1285,11 @@ $(document).ready(
         return false;
     });
         });
+        $('.googlemap').css('height',$('.location .slanted-div').height()+'px');
+    });
+
+    $(window).resize(function(){
+        $('.googlemap').css('height',$('.location .slanted-div').height()+'px');
     });
 
 </script>
@@ -1337,17 +1351,17 @@ $(document).ready(
             $('#shop1').click(function(){
                 $('.nav-tabs li').removeClass("active-tab");
                 $(this).parent().addClass("active-tab");
-                $('.location-text').html("Shop No. 2,3,4, Konark Estate,<br> Opp. Neco Gardens, Datta Mandir Chowk,<br> Viman, Nagar, Pune, Maharashtra 411014"); 
+                $('.location-text').html("<b>Aundh Road</b><bR>Another Shop No. 2,3,4,Random,<br> Opp. lol Gardens, Someplace,<br> Viman, Nagar, Pune, Maharashtra 411014");
             });
             $('#shop2').click(function(){
                 $('.nav-tabs li').removeClass("active-tab");
                 $(this).parent().addClass("active-tab");
-                $('.location-text').html("Another Shop No. 2,3,4,Random,<br> Opp. lol Gardens, Someplace,<br> Viman, Nagar, Pune, Maharashtra 411014"); 
+                $('.location-text').html("<b>Viman Nagar</b><bR>Shop No. 2,3,4, Konark Estate,<br> Opp. Neco Gardens, Datta Mandir Chowk,<br> Viman, Nagar, Pune, Maharashtra 411014");
             });
             $('#shop3').click(function(){
                 $('.nav-tabs li').removeClass("active-tab");
                 $(this).parent().addClass("active-tab");
-                $('.location-text').html("Yet Another Shop, Konark Estate,<br> West Cliff Gardens, Datta Chowk,<br> Viman, Nagar, Pune, Maharashtra 411014"); 
+                $('.location-text').html("<b>Kondwha</b><bR>Yet Another Shop, Konark Estate,<br> West Cliff Gardens, Datta Chowk,<br> Viman, Nagar, Pune, Maharashtra 411014");
             });
             
             
