@@ -395,7 +395,7 @@ h1 .flaticon-coin:before {
     color: #7D212D;
     border-bottom: 8px solid #7D212D;
     border-top: 8px solid #7D212D;
-    width: 140px;
+    width: 180px;
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -718,10 +718,16 @@ a:focus {
         padding-right: 20px;
     }
     #loc-head {
-        margin-left: auto;
+        margin-left: auto !important;
+    }
+    .contact {
+        padding: 30px !important;
     }
 }
 
 #loc-head {
     margin-left: -25%;
+}
+.no-pad {
+    padding-bottom: 0px !important;
 }
