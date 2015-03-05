@@ -632,8 +632,8 @@ a:focus {
     }
     .slanted-div-inner {
         transform: none !important;
-        padding-left: 20px !important;
-        padding-right: 20px !important;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .hot-bev {
         transform: none !important;
@@ -715,7 +715,7 @@ a:focus {
         padding: 30px !important;
     }
     .join-ex {
-        width: 100% !important;
+        width: auto !important;
     }
 }
 
