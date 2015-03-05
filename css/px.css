@@ -731,3 +731,16 @@ a:focus {
 .no-pad {
     padding-bottom: 0px !important;
 }
+.counters h2 {
+    padding-bottom: 10px;
+}
+.counters h3 {
+    margin-top: 10px;
+    font-size: 42px;
+    font-family: 'bignoodletitling';
+    color: #EA7F45;
+    padding-bottom: 0px;
+}
+.counters {
+    min-height: 580px;
+}
