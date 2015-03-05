@@ -475,15 +475,6 @@ h1 .flaticon-coin:before {
     font-family: 'rockwell-light';
 }
 
-.burger__screen b{
-    font-family: 'rockwell-bold';
-    font-weight: bolder !important;
-}
-
-.burger__screen .sans-serif{
-    font-family: 'rockwell-light';
-}
-
 b {
     font-weight: normal;
     font-family: 'roboto-bold'

@@ -22,18 +22,6 @@
     font-weight: normal;
     font-style: normal
 }
-@font-face {
-    font-family: 'rockwell-light';
-    src: url("../fonts/rockwell.ttf");
-    font-weight: 100;
-    font-style: normal
-}
-@font-face {
-    font-family: 'rockwell-bold';
-    src: url("../fonts/rockwell.ttf");
-    font-weight: bolder;
-    font-style: normal
-}
 
 body,
 h1,
