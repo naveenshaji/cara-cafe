@@ -632,8 +632,8 @@ a:focus {
     }
     .slanted-div-inner {
         transform: none !important;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
     }
     .hot-bev {
         transform: none !important;
@@ -646,19 +646,19 @@ a:focus {
         width: 100%;
     }
     .beverages {
-        overflow: visible;
+        overflow: visible !important;
     }
     .abs-left {
-        display: none;
+        display: none !important;
     }
     .abs-right {
-        display: none;
+        display: none !important;
     }
     .story-ico {
-        display: none;
+        display: none !important;
     }
     .map {
-        display: none;
+        display: none !important;
     }
     #ticker-text ul li {
         text-align: center;
@@ -668,20 +668,20 @@ a:focus {
         height: 110px !important;
     }
     .app-blue img{
-        height: 200px;
+        height: 200px !important;
         z-index: -1;
     }
     .story-left {
-        left: -50px;
+        left: -50px !important;
     }
     .story-right {
-        right: -50px;
+        right: -50px !important;
     }
     .story-left span {
-        left: 10px;
+        left: 10px !important;
     }
     .story-right span {
-        right: 10px;
+        right: 10px !important;
     }
     .story-btn {
         display: block;
@@ -697,22 +697,25 @@ a:focus {
         opacity: 0.8;
     }
     .addresses1 img {
-        height: 100px;
+        height: 100px !important;
     }
     .addresses1 li {
-        font-size: 16px;
+        font-size: 16px !important;
     }
     .addresses2 img {
-        margin-bottom: 50px;
+        margin-bottom: 50px !important;
     }
     .addresses2 {
-        padding-right: 20px;
+        padding-right: 20px !important;
     }
     #loc-head {
         margin-left: auto !important;
     }
     .contact {
         padding: 30px !important;
+    }
+    .join-ex {
+        width: 100% !important;
     }
 }
 
@@ -734,4 +737,7 @@ a:focus {
 }
 .counters {
     min-height: 580px;
+}
+.join-ex {
+    width: 70%;
 }
