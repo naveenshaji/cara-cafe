@@ -4,9 +4,9 @@ $email = $_POST['email'];
 $message = $_POST['text'];
 
 
-$to = 'mail@pixelblenders.com';
+$to = 'caracafe@gmail.com';
 $message = 'Name: '.$name."\r\n".'Email: '.$email."\r\n".'Message: '.$message."\r\n";
-$headers = 'From: noreply@cara-cafe.com' . "\r\n";
+$headers = 'From: mail@caracafe.in' . "\r\n";
 
 if (filter_var($email, FILTER_VALIDATE_EMAIL)) { // this line checks that we have a valid email address
 mail($to, $subject, $message, $headers); //This method sends the mail.
