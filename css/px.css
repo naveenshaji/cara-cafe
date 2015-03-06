@@ -743,3 +743,6 @@ a:focus {
 .join-ex {
     width: 70%;
 }
+.counters {
+    text-transform: lowercase;
+}
