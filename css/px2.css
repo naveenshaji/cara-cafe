@@ -1,23 +1,23 @@
 html {
-
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
 }
-body{
-    width:100%;
+
+body {
+    width: 100%;
     margin: 0px;
 }
+
 body {
     overflow-x: hidden;
     overflow: hidden;
 }
 
-
-button{
-    border-color:  #aeef5d;
+button {
+    border-color: #aeef5d;
     border-width: 5px;
     border-style: solid;
-    background: rgba(0,0,0,0);
+    background: rgba(0, 0, 0, 0);
     font-size: 4em;
     color: white;
     margin: 30px;
@@ -30,206 +30,206 @@ button{
     transition: all 0.4s ease;
     font-family: 'Oswald', sans-serif;
 }
+
 button:hover {
-    background: rgba(255,255,255,0.5);
+    background: rgba(255, 255, 255, 0.5);
 }
-.color-card{
-    background-color: rgb(0,200,200);
-    width:100%;
+
+.color-card {
+    background-color: rgb(0, 200, 200);
+    width: 100%;
 }
-.container{
-    padding-top: 5%;;
+
+.container {
+    padding-top: 5%;
     padding-bottom: 5%;
     text-align: center;
-
 }
-h3{
+
+h3 {
     color: #ffffff;
     font-family: 'Oswald', sans-serif;
     font-size: 2.3em;
-   text-align: left;
+    text-align: left;
     weight: 400;
     margin-bottom: 0.1%;
     letter-spacing: 1.2px;
-
 }
 
-.icon-container{
+.icon-container {
     float: left;
     color: #ffffff;
     padding-top: 4%;
     padding-left: 25%;
     padding-bottom: 8%;
     padding-right: 3%;
-
-
 }
 
 .flaticon-school21:before {
-font-size: 100px;
+    font-size: 100px;
 }
+
 .flaticon-man27:before {
-font-size: 100px;
+    font-size: 100px;
 }
+
 .flaticon-royalty8:before {
-font-size: 100px;
+    font-size: 100px;
 }
+
 .flaticon-family11:before {
-font-size: 100px;
+    font-size: 100px;
 }
 
 .flaticon-skateboard1:before {
-font-size: 100px;
+    font-size: 100px;
 }
 
-h6{
+h6 {
     color: #ffffff;
-      font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 1.5em;
-   text-align: left;
+    text-align: left;
     font-weight: 300;
     margin-top: 0.5%;
-    padding-left: 25%;
-   padding-right: 36%;
+    padding-left: 13%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 16%;
     font-style: italic;
     display: block;
-
-
+    width: 700px;
 }
 
-p{
-   font-family: 'Roboto Condensed', sans-serif;font-size: 1.1em; margin-left: auto;
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.1em;
+    margin-left: auto;
 }
-b{
-    font-weight:400;}
+
+b {
+    font-weight: 400;
+}
 
 i {
-font-size: 7em;
-border-radius: 100%;
-border: 5px solid rgb(255,255,255);
-padding: 20px;
-    padding-right: 20%;
-
+    font-size: 7em;
+    border-radius: 500px;
+    border: 5px solid rgb(255, 255, 255);
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+i:before {
+    margin-left: 5px !important;
 }
 
 .color-card {
     transition: all 0.5s ease;
+    overflow: hidden;
 }
-.color-card i{
+
+.color-card i {
     transition: all 0.5s ease;
 }
+
 .color-card:hover {
     transform: scale(1.05);
 }
-.color-card:hover i{
+
+.color-card:hover i {
     transform: rotate(360deg);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-
-
-
-#feedback-page{
-    text-align:center;
+#feedback-page {
+    text-align: center;
 }
 
-#form-main{
-    width:100%;
-    float:left;
-    padding-top:0px;
+#form-main {
+    width: 100%;
+    float: left;
+    padding-top: 0px;
 }
 
 #form-div {
-    background-color:rgba(72,72,72,0.4);
-    padding-left:35px;
-    padding-right:35px;
-    padding-top:35px;
-    padding-bottom:50px;
+    background-color: rgba(72, 72, 72, 0.4);
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 35px;
+    padding-bottom: 50px;
     width: 450px;
     float: left;
     left: 50%;
     position: absolute;
-  margin-top:30px;
+    margin-top: 30px;
     margin-left: -260px;
-  -moz-border-radius: 7px;
-  -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
 }
 
 .feedback-input {
-    color:#3c3c3c;
+    color: #3c3c3c;
     font-family: Helvetica, Arial, sans-serif;
-  font-weight:500;
+    font-weight: 500;
     font-size: 18px;
     border-radius: 0;
     line-height: 22px;
     background-color: #fbfbfb;
     padding: 13px 13px 13px 54px;
     margin-bottom: 10px;
-    width:100%;
+    width: 100%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-  border: 3px solid rgba(0,0,0,0);
+    border: 3px solid rgba(0, 0, 0, 0);
 }
 
-.feedback-input:focus{
+.feedback-input:focus {
     background: #fff;
     box-shadow: 0;
     border: 3px solid #3498db;
     color: #3498db;
     outline: none;
-  padding: 13px 13px 13px 54px;
+    padding: 13px 13px 13px 54px;
 }
 
-.focused{
-    color:#30aed6;
-    border:#30aed6 solid 3px;
+.focused {
+    color: #30aed6;
+    border: #30aed6 solid 3px;
 }
-
 /* Icons ---------------------------------- */
-#name{
+
+#name {
     background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
     background-size: 30px 30px;
     background-position: 11px 8px;
     background-repeat: no-repeat;
 }
 
-#name:focus{
+#name:focus {
     background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
     background-size: 30px 30px;
     background-position: 8px 5px;
-  background-position: 11px 8px;
+    background-position: 11px 8px;
     background-repeat: no-repeat;
 }
 
-#email{
+#email {
     background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
     background-size: 30px 30px;
     background-position: 11px 8px;
     background-repeat: no-repeat;
 }
 
-#email:focus{
+#email:focus {
     background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
     background-size: 30px 30px;
-  background-position: 11px 8px;
+    background-position: 11px 8px;
     background-repeat: no-repeat;
 }
 
-#comment{
+#comment {
     background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
     background-size: 30px 30px;
     background-position: 11px 8px;
@@ -240,34 +240,36 @@ textarea {
     width: 100%;
     height: 150px;
     line-height: 150%;
-    resize:vertical;
+    resize: vertical;
 }
 
-input:hover, textarea:hover,
-input:focus, textarea:focus {
-    background-color:white;
+input:hover,
+textarea:hover,
+input:focus,
+textarea:focus {
+    background-color: white;
 }
 
-#button-blue{
+#button-blue {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    float:left;
+    float: left;
     width: 100%;
     border: #fbfbfb solid 4px;
-    cursor:pointer;
+    cursor: pointer;
     background-color: #3498db;
-    color:white;
-    font-size:24px;
-    padding-top:22px;
-    padding-bottom:22px;
+    color: white;
+    font-size: 24px;
+    padding-top: 22px;
+    padding-bottom: 22px;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
-  margin-top:-4px;
-  font-weight:700;
+    margin-top: -4px;
+    font-weight: 700;
 }
 
-#button-blue:hover{
-    background-color: rgba(0,0,0,0);
+#button-blue:hover {
+    background-color: rgba(0, 0, 0, 0);
     color: #0493bd;
 }
 
@@ -286,13 +288,13 @@ input:focus, textarea:focus {
     transition: .3s ease;
 }
 
-.submit:hover .ease{
-  width:100%;
-  background-color:white;
+.submit:hover .ease {
+    width: 100%;
+    background-color: white;
 }
 
 @media only screen and (max-width: 580px) {
-    #form-div{
+    #form-div {
         left: 3%;
         margin-right: 3%;
         width: 88%;
@@ -302,12 +304,10 @@ input:focus, textarea:focus {
     }
 }
 
-#suc{
+#suc {
     color: #ffffff;
-      font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.3em;
-   text-align: center;
-   margin-top: 2%;
-
-
+    text-align: center;
+    margin-top: 2%;
 }
