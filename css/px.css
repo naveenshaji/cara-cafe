@@ -397,7 +397,7 @@ h1 .flaticon-coin:before {
     color: #7D212D;
     border-bottom: 8px solid #7D212D;
     border-top: 8px solid #7D212D;
-    width: 180px;
+    width: 200px;
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -473,7 +473,7 @@ h1 .flaticon-coin:before {
 
 .burger__screen {
     padding-bottom: 0px;
-    color: #FDFCBC;
+    color: #fff;
     font-family: 'rockwell-light';
 }
 
