@@ -275,7 +275,10 @@ i {
 h1 .flaticon-coin:before {
     font-size: 60px;
 }
-.flaticon-news29:before {
+.flaticon-like80:before {
+    font-size: 180px;
+}
+.flaticon-agreement2:before {
     font-size: 180px;
 }
 .flaticon-italian1:before {
@@ -745,4 +748,7 @@ a:focus {
 }
 .counters {
     text-transform: lowercase;
+}
+.slanted-div h3{
+    font-size: 34px;
 }
