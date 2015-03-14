@@ -103,7 +103,7 @@ button:hover {
 .pxbutton-black {
     border: 4px solid black;
     background: rgba(0, 0, 0, 0);
-    font-size: 50px;
+    font-size: 40px;
     color: black;
     margin: 30px;
     padding-top: 0px;
@@ -252,11 +252,13 @@ i {
     padding-top: 0px;
     padding-bottom: 80px;
     line-height: 50px;
+    font-size: 44px;
 }
 
 .counters h2 {
     color: #EA7F45;
     margin-top: -10px;
+    font-size: 38px;
 }
 
 .flaticon-cutlery22:before {
@@ -316,13 +318,13 @@ h1 .flaticon-coin:before {
     font-size: 120px;
 }
 .flaticon-burger7:before {
-    font-size: 120px;
+    font-size: 60px;
 }
 .flaticon-double22:before {
     font-size: 120px;
 }
 .flaticon-coffee16:before {
-    font-size: 80px;
+    font-size: 60px;
 }
 .flaticon-fruit:before {
     font-size: 80px;
@@ -448,7 +450,7 @@ h1 .flaticon-coin:before {
 }
 
 .hot-bev {
-    min-height: 500px;
+    min-height: 750px;
     background: #FCB329;
     padding-left: 100px;
     color: #000000;
@@ -461,7 +463,7 @@ h1 .flaticon-coin:before {
 }
 
 .cold-bev {
-    min-height: 500px;
+    min-height: 750px;
     background: #30506C;
     padding-left: 100px;
     transform: skewX(10deg);
@@ -503,6 +505,10 @@ h1 .flaticon-coin:before {
     padding-bottom: 0px;
     color: #fff;
     font-family: 'rockwell-light';
+}
+.burger__screen .section h1 {
+    text-transform: uppercase;
+    font-size: 44px;
 }
 
 b {
@@ -760,7 +766,7 @@ a:focus {
 }
 .counters h3 {
     margin-top: 10px;
-    font-size: 42px;
+    font-size: 34px;
     font-family: 'bignoodletitling';
     color: #EA7F45;
     padding-bottom: 0px;
@@ -772,7 +778,7 @@ a:focus {
     width: 70%;
 }
 .counters {
-    text-transform: lowercase;
+    text-transform: uppercase;
 }
 .slanted-div h3{
     font-size: 34px;
