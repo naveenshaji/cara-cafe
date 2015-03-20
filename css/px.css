@@ -231,13 +231,6 @@ i {
 }
 
 .our-story {
-/*
-    background-image: url(../img/our-story.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: local;
-    background-position: center;
-*/
     background: #4D7A8F;
 }
 
@@ -253,6 +246,7 @@ i {
     padding-bottom: 80px;
     line-height: 50px;
     font-size: 44px;
+    line-height: 0.6 !important;
 }
 
 .counters h2 {
@@ -519,6 +513,11 @@ b {
 .app-page {
     background: #FDB42A;
     color: #000000;
+    background-image: url("../img/app.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .app-blue {
@@ -659,6 +658,9 @@ a:focus {
 }
 .addresses1 li {
     cursor: pointer;
+}
+.story-ico {
+    margin-top: 12% !important;
 }
 @media (max-width: 64em) {
     .slanted-div {
