@@ -768,13 +768,16 @@ a:focus {
 }
 .counters h3 {
     margin-top: 10px;
-    font-size: 34px;
+    font-size: 30px;
     font-family: 'bignoodletitling';
     color: #EA7F45;
     padding-bottom: 0px;
 }
+.counters h1{
+    font-size: 36px;
+}
 .counters {
-    min-height: 580px;
+    min-height: 480px;
 }
 .join-ex {
     width: 70%;
