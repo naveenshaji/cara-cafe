@@ -336,7 +336,7 @@ h1 .flaticon-coin:before {
 }
 
 .scrolloff {
-    pointer-events: auto;
+    pointer-events: none;
 }
 
 .site__content {

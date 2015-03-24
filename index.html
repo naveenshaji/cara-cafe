@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <!--
 
 Copyright (c) 2015 Naveen Shaji (http://naveenshaji.github.io/), PixelBlenders (http://pixelblenders.com)
@@ -21,9 +22,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 -->
-
-<!DOCTYPE html>
-
 
 <!--[if IEMobile]>      <html class="iemobile site__background" lang="en">            <![endif]-->
 
@@ -1257,7 +1255,7 @@ $(document).ready(
 
         $('#map_canvas1').addClass('scrolloff'); 
 
-        $('#canvas1').on('click', function () {
+        $('.location').on('click', function () {
 
             $('#map_canvas1').removeClass('scrolloff'); 
 
@@ -1265,7 +1263,7 @@ $(document).ready(
 
 
 
-        $("#map_canvas1").mouseleave(function () {
+        $(".location").mouseleave(function () {
 
             $('#map_canvas1').addClass('scrolloff'); 
 
