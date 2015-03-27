@@ -738,13 +738,13 @@ Our story doesn’t end here. Our story, just like everything else is a work in 
 
     <div class="row sans-serif">
 
-        <div class="col-sm-4">
+        <div class="col-sm-4 internal">
 
-            Contact Us<br>
+            <a id="contactlink" href="#">Contact Us</a><br>
 
             Cara Express App<br>
 
-            Locations
+            <a id="locationlink" href="#">Locations</a>
 
         </div>
 
@@ -752,7 +752,7 @@ Our story doesn’t end here. Our story, just like everything else is a work in 
 
         <div class="col-sm-4">
 
-            <a link="join.html" target="_blank">Join Our Team<br>
+            <a link="join.html" target="_blank">Join Our Team</a><br>
 
             Mall Hospitality<br>
 
@@ -1325,6 +1325,25 @@ $(document).ready(
                 return false;
             });
             
+
+
+            function goToByScroll(id){
+    id = id.replace("link", "");
+      // Scroll
+    $('html,body').animate({
+        scrollTop: $("."+id).offset().top},
+        'slow');
+}
+
+$(".internal a").click(function(e) {
+      // Prevent a page reload when a link is pressed
+    e.preventDefault();
+      // Call the scroll function
+    goToByScroll($(this).attr("id"));
+});
+
+
+
         });
             
             
