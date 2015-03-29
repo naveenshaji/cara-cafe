@@ -738,13 +738,13 @@ Our story doesn’t end here. Our story, just like everything else is a work in 
 
     <div class="row sans-serif">
 
-        <div class="col-sm-4 internal">
+        <div class="col-sm-4">
 
-            <a id="contactlink" href="#">Contact Us</a><br>
+            <a id="contact" href="join.html" target="_blank">Contact Us</a><br>
 
-            Cara Express App<br>
+            <a href="#stores">Cara Express App</a><br>
 
-            <a id="locationlink" href="#">Locations</a>
+            <a id="locationlink" class="internal" href="#">Locations</a>
 
         </div>
 
@@ -752,7 +752,7 @@ Our story doesn’t end here. Our story, just like everything else is a work in 
 
         <div class="col-sm-4">
 
-            <a link="join.html" target="_blank">Join Our Team</a><br>
+            <a href="join.html" target="_blank">Join Our Team</a><br>
 
             Mall Hospitality<br>
 
@@ -831,7 +831,7 @@ Our story doesn’t end here. Our story, just like everything else is a work in 
 
 
 
-<div class="menu-title"><h1 class="screen__title">Menu</h1></div>
+<div class="menu-title section"><h1 class="screen__title">Menu</h1></div>
 
  <div id="burgers" class="burger-group"></div><!--leave this here for hash nav-->
 
@@ -1335,7 +1335,7 @@ $(document).ready(
         'slow');
 }
 
-$(".internal a").click(function(e) {
+$(".internal").click(function(e) {
       // Prevent a page reload when a link is pressed
     e.preventDefault();
       // Call the scroll function
