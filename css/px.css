@@ -381,6 +381,11 @@ h1 .flaticon-coin:before {
     background: #45bf52
 }
 
+.px {
+    color: #F9B228 !important;
+    font-weight: bolder !important;
+}
+
 .american {
     background: #356da8
 }
