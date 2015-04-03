@@ -139,6 +139,11 @@ i {
     font-size: 20px
 }
 
+.item .sans-serif {
+    font-size: 16px;
+    padding-left: 10px;
+}
+
 .our-story .slanted-div {
     height: 100%;
     background: #155D85;
@@ -219,7 +224,7 @@ i {
 .counters h2 {
     color: #EA7F45;
     margin-top: -10px;
-    font-size: 38px
+    font-size: 30px
 }
 
 .flaticon-cutlery22:before,
@@ -718,14 +723,14 @@ a:focus {
 
 .counters h3 {
     margin-top: 10px;
-    font-size: 30px;
+    font-size: 26px;
     font-family: bignoodletitling;
     color: #EA7F45;
     padding-bottom: 0
 }
 
 .counters h1 {
-    font-size: 36px
+    font-size: 32px
 }
 
 .counters {
