@@ -244,19 +244,20 @@ i {
 .flaticon-twitter12:before {
     font-size: 60px
 }
-
-.flaticon-news29:before {
-    font-size: 180px
+.flaticon-agreement2:before,
+.flaticon-news29:before,
+.flaticon-like80:before {
+    font-size: 220px
 }
 
 h1 .flaticon-coin:before {
     font-size: 60px
 }
 
-.flaticon-agreement2:before,
+
 .flaticon-fork12:before,
-.flaticon-italian1:before,
-.flaticon-like80:before {
+.flaticon-italian1:before
+ {
     font-size: 180px
 }
 
