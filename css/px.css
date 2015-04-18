@@ -753,3 +753,24 @@ a:focus {
 a {
     text-decoration: none !important;
 }
+@media only screen and (min-width: 992px) {
+	#middle-icons{
+		width:40%;
+	}
+	#email-container{
+		width:35%;
+	}
+
+
+	}
+
+	@media only screen and (min-width: 1400px) {
+	
+	#email-container{
+		padding-left:10%!important;
+	}
+
+
+	}
+	
+
